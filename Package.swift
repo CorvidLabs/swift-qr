@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "swift-qr",
     platforms: [
-        .macOS(.v10_15),
+        .macOS(.v14),
     ],
     products: [
         .library(
