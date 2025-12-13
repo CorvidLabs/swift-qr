@@ -1,0 +1,42 @@
+{
+  "originHash" : "e524a58038305ba2d8dd264fbea2c0268a1d0f0969c90d8bebf89d8eb3f9cf88",
+  "pins" : [
+    {
+      "identity" : "swift-ascii",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CorvidLabs/swift-ascii.git",
+      "state" : {
+        "revision" : "dd021eba6340508b85f9f515526e6d0813df3a68",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "swift-color",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CorvidLabs/swift-color.git",
+      "state" : {
+        "revision" : "887c1cc6a85b3d416c092646ac21b904c2ef2972",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "swift-hash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tayloraswift/swift-hash",
+      "state" : {
+        "revision" : "ea0b9fc3152ed5941dd82e4a01e65f99fe1a75d2",
+        "version" : "0.7.1"
+      }
+    },
+    {
+      "identity" : "swift-png",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tayloraswift/swift-png.git",
+      "state" : {
+        "revision" : "d444d98aa32f022bf4a8e74b5a697c7ee856a6ad",
+        "version" : "4.4.9"
+      }
+    }
+  ],
+  "version" : 3
+}
