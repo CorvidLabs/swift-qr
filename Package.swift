@@ -22,6 +22,10 @@ let package = Package(
             url: "https://github.com/tayloraswift/swift-png.git",
             from: "4.4.0"
         ),
+        .package(
+            url: "https://github.com/swiftlang/swift-docc-plugin",
+            from: "1.4.0"
+        ),
     ],
     targets: [
         .target(
