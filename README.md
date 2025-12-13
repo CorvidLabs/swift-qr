@@ -4,7 +4,7 @@
 ![Platforms](https://img.shields.io/badge/Platforms-macOS%20|%20Linux-blue.svg)
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 
-A pure Swift QR code generator. No external dependencies for core functionality.
+A pure Swift QR code generator.
 
 <p align="center">
   <img src="demo.png" alt="QR Code Demo" width="290" />
