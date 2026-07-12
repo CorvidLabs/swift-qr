@@ -22,11 +22,7 @@
   "no_spec_change": true,
   "no_spec_change_rationale": "This migration adds governance configuration and CI orchestration without changing Swift QR behavior; future meaningful implementation changes must add or update canonical specifications.",
   "acceptance_criteria": [
-    "SpecSync advisory coverage passes; all four agent integrations are installed; Trust doctor passes; Swift QR builds",
-    "all 34 tests pass",
-    "and the qr-gen CLI smoke check passes; existing Linux",
-    "macOS",
-    "and documentation workflows remain green."
+    "SpecSync advisory coverage passes; all four agent integrations are installed; Trust doctor passes; Swift QR builds, all 34 tests pass, and the qr-gen CLI smoke check passes; existing Linux, macOS, and documentation workflows remain green."
   ],
   "selected_artifacts": [
     "context",
