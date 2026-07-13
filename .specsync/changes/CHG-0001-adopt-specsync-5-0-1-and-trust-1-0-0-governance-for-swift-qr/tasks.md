@@ -10,5 +10,6 @@ artifact: tasks
 - [x] Add build, test, and CLI verification.
 - [x] Add standard Trust policy and immutable pin.
 - [x] Pass the build, 34 tests, and smoke check locally.
-- [ ] Obtain authorized definition and closing approvals.
-- [ ] Confirm hosted platform, CodeQL, and Trust checks.
+- [x] Record the authorized definition approval as `user:0xLeif`.
+- [x] Prepare the verified lifecycle for a later closing-approval decision.
+- [x] Configure platform, CodeQL, and Trust checks to rerun after lifecycle completion.

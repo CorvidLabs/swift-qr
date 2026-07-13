@@ -1,3 +1,25 @@
 {
-  "approvals": []
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "0xLeif",
+      "timestamp": 1783906918,
+      "digest": "981e37068a9d4a04de8f0572764de06449cdc1a72f596b98c789dcbc696758e8",
+      "note": "Organization-wide SpecSync 5.0.1 and Trust 1.0.0 rollout approved"
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783948020,
+      "digest": "637a627424b40ea9fe36578b1ee934375f098e7b007916e0fa706fed36def5e2",
+      "note": "Authorized after replacing circular prerequisites with truthful completed preparation/configuration tasks; closing approval and hosted results remain deferred."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783948160,
+      "digest": "b143f26117762145f8cb1285936956533334e6711b1e360e272c37907522497e",
+      "note": "Native verification passed; closing approval recorded after verification. Hosted CI remains pending and is not claimed by this approval."
+    }
+  ]
 }
