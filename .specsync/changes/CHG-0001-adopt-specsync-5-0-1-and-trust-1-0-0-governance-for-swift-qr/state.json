@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-swift-qr",
+  "slug": "adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-swift-qr",
+  "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for Swift QR",
+  "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for Swift QR",
+  "kind": "migration",
+  "state": "accepted",
+  "base_commit": "a31faef63a7d2e170d0f03de43cc8ee8e0985efa",
+  "created_at": 1783885968,
+  "updated_at": 1783948160,
+  "affected_specs": [],
+  "affected_paths": [
+    ".github/",
+    ".specsync/",
+    ".trust.toml",
+    ".augur.toml",
+    ".attest.json",
+    "AGENTS.md",
+    "fledge.toml"
+  ],
+  "no_spec_change": true,
+  "no_spec_change_rationale": "This migration adds governance configuration and CI orchestration without changing Swift QR behavior; future meaningful implementation changes must add or update canonical specifications.",
+  "acceptance_criteria": [
+    "SpecSync advisory coverage passes; all four agent integrations are installed; Trust doctor passes; Swift QR builds, all 34 tests pass, and the qr-gen CLI smoke check passes; existing Linux, macOS, and documentation workflows remain green."
+  ],
+  "selected_artifacts": [
+    "context",
+    "research",
+    "design",
+    "plan",
+    "tasks",
+    "testing",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "yes",
+    "public_contract": "no"
+  }
+}

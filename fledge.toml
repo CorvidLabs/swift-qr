@@ -1,0 +1,8 @@
+[tasks]
+build = "swift build -v"
+test = "swift test -v"
+smoke = "swift run qr-gen --help >/dev/null"
+
+[lanes.verify]
+description = "Build and test Swift QR and smoke-test its CLI"
+steps = ["build", "test", "smoke"]
