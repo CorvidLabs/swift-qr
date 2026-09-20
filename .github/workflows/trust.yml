@@ -28,6 +28,6 @@ jobs:
         run: echo "range=${{ github.event.pull_request.base.sha || github.event.before }}..${{ github.event.pull_request.head.sha || github.sha }}" >> "$GITHUB_OUTPUT"
       - name: CorvidLabs Trust gate
         id: trust
-        uses: CorvidLabs/trust@fcc889f54d8b4892a81af463c5a0250e2be66fc5 # v1.2.0
+        uses: CorvidLabs/trust@dd52a7a90ffbc1d2b1030e37007c18274f3d96bc # v1.2.1
         with:
           range: ${{ steps.comparison.outputs.range }}
